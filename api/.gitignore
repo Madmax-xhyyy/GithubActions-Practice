@@ -1,0 +1,17 @@
+# Compiled JavaScript files
+lib/**/*.js
+lib/**/*.js.map
+
+# TypeScript v1 declaration files
+typings/
+
+node_modules
+*.local
+# Keep environment variables out of version control
+.env
+
+src/generated/prisma
+
+coverage/
+
+dist/
