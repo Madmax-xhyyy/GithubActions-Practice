@@ -12,6 +12,7 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", message: "API is running" });
 });
 
+// adding comment for testing ci/cd
 const port = process.env.PORT;
 
 app.listen(port, () => {
