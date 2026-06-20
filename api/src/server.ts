@@ -12,7 +12,7 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", message: "API is running" });
 });
 
-//comment again
+
 const port = process.env.PORT;
 
 app.listen(port, () => {
